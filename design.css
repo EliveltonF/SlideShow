@@ -1,0 +1,100 @@
+body {
+    background-color: rgba(0, 0, 0, 0.356);
+
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    #dentroVisor{
+        
+        flex-wrap: nowrap;
+        max-width: 210px;  
+        font-size: 35px;
+        margin-left: 10px;
+        margin-right: 16px;
+    }
+    
+
+#visor {
+    margin-top: 20px;
+    justify-content: end;
+    text-overflow: clip;
+    color: black;
+    align-items: center;
+    display: flex;
+    height: 150px;
+    width: 230px;
+    background-color: whitesmoke;
+ 
+}
+#botoes {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: auto;
+    width: 230px;
+    background-color: whitesmoke;
+}
+.botao,.botaoOperacao {
+    border: none;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgba(114, 114, 114, 0.075);
+    width: 50px;
+    height: 50px;
+}
+
+.Row {
+    margin: 5px;
+    display: flex;
+}
+#C {
+    color: red;
+}
+#parents, #porcentagem, #divide,#multiplica,#menos,#mais {
+    color: green;
+}
+
+#igual {
+    color: white;
+    background-color: green;
+}
+#input {
+    color: black;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+}
+p {
+    user-select: none;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 12px;
+}
+#divide > p{
+    margin-left:3px;
+    margin-top: 7px;
+    font-size: 32px;
+}
+#multiplica > p{
+    margin-left:3px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+#menos > p{
+    margin-left:3px;
+    margin-top: -10px;
+    font-size: 32px;
+}
+#mais > p{
+    margin-left:3px;
+    margin-top: 7px;
+    font-size: 32px;
+}
+#igual > p{
+    margin-left:3px;
+    margin-top: 7px;
+    font-size: 32px;
+}
