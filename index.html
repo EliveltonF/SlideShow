@@ -1,105 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="design.css">
-
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <div id="main">
-        <div id="visor">
-            <p id="dentroVisor"></p>
-   
-            </div>
+        <div id="botoes">
+            <button type="button" id="botao" onclick="goPrev()">volta</button>
+            <button type="button" id="botao2" onclick="goNext()">vai</button>
         </div>
-        <div id="botoes" >
-            <div class="Row">
-                <button type="button" class="botao" id="C" value="C" onclick="back()">
-                    C
-                </button>
-                <button type="button" class="botao" id="parents" value="()" onclick="aa()">
-                    ()
-                </button>
-                <button type="button" class="botao" id="porcentagem" value="%" onclick="aa()">
-                    %
-                </button>
-                <button type="button" class="botao" id="divide" value="/" onclick="aa('/')">
-                    ÷
-                </button>
-            </div>
-
-
-            <div class="Row">
-                <button type="button" class="botao" id="sete" value="7" onclick="aa('7')">
-                    7
-                </button>
-                <button type="button" class="botao" id="oito" value="8" onclick="aa('8')">
-                    8
-                </button>
-                <button type="button" class="botao" id="nove" value="9" onclick="aa('9')">
-                    9
-                </button>
-                <button type="button" class="botao" id="multiplica" value="x" onclick="aa('*')">
-                    x
-                </button>
-            </div>
-
-
-            <div class="Row">
-                <button type="button" class="botao" id="quatro" value="4" onclick="aa('4')">
-                    4
-                </button>
-                <button type="button" class="botao" id="cinco" value="5" onclick="aa('5')">
-                    5
-                </button>
-                <button type="button" class="botao" id="seis" value="6" onclick="aa('6')">
-                    6
-                </button>
-                <button type="button" class="botao" id="menos" value="-" onclick="aa('-')">
-                    _
-                </button>
-            </div>
-
-
-            <div class="Row">
-                <button type="button" class="botao" id="um" value="1" onclick="aa('1')">
-                    1
-                </button>
-                <button type="button" class="botao" id="dois" value="2" onclick="aa('2')">
-                    2
-                </button>
-                <button type="button" class="botao" id="tres" value="3" onclick="aa('3')">
-                    3
-                </button>
-                <button type="button" class="botao" id="mais" value="+" onclick="aa('+')">
-                    +
-                </button>
-            </div>
-
-
-            <div class="Row">
-                <button type="button" class="botao" id="maisMenos" value="maisoumenos" onclick="aa()">
-                    +/-
-                </button>
-                <button type="button" class="botao" id="zero" value="0" onclick="aa('0')">
-                    0
-                </button>
-                <button type="button" class="botao" id="virgula" value="," onclick="aa()">
-                    ,
-                </button>
-                <button type="button" class="botao" id="igual" value="=" onclick="igual()">
-                    =
-                </button>
-            </div>
+        <div id="todasImg">
+            <div id="img"></div>
+            <div id="img1"></div>
+            <div id="img2"></div>
         </div>
     </div>
 </body>
-<script src="script.js"> </script>
-
 
 </html>
